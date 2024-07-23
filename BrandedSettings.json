@@ -1,0 +1,69 @@
+{
+  "ApplicationDisplayName": "<Enter App Name Here>",
+  "SkipEula": false,
+  "ObfuscateEmail": false,
+  "EnableScreenSharing": false,
+  "ConnectionSettings": {
+    "EnableOverrides": false,
+    "AppId": "Sistechy.Sample",
+    "ClientId": "92dd68ee-384b-4fbe-8929-d922b3d6dcfc",
+    "ServerUrl": "https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com",
+    "AuthorizationEndpointUrl": "https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize",
+    "RedirectUrl": "https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com",
+    "TokenUrl": "https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token",
+    "AllowCerts" : false, 
+    "MultiUserSettings":{
+      "MultiUserEnabled": false
+    }
+  },
+  "AllowedDomains": [
+    "<Enter any domain name that be allowed for ConnectionSettings>"
+  ],
+  "DebugSettings": {
+    "DebugODataProvider": false,
+    "TracingEnabled": false,
+    "Categories": [
+      "mdk.trace.action",
+      "mdk.trace.api",
+      "mdk.trace.app",
+      "mdk.trace.binding",
+      "mdk.trace.branding",
+      "mdk.trace.core",
+      "mdk.trace.i18n",
+      "mdk.trace.lcms",
+      "mdk.trace.logging",
+      "mdk.trace.odata",
+      "mdk.trace.onboarding",
+      "mdk.trace.profiling",
+      "mdk.trace.push",
+      "mdk.trace.restservice",
+      "mdk.trace.settings",
+      "mdk.trace.targetpath",
+      "mdk.trace.ui"
+    ]
+  },
+  "LogSettings": {
+    "FileName": "ClientLog.txt",
+    "MaxFileSizeInMegaBytes": 1,
+    "LogLevel": "<Enter your LogLevel - Debug | Error | Info | Warn | Trace >"
+  },
+  "Demo": {
+    "EnableOverrides": false,
+    "DemoAppLanguage": "<Specify language code (i.e. en) if the demo db can support sap-language parameter>",
+    "ConnectionSettings": {
+      "AppId": "Sistechy.Sample",
+      "ClientId": "92dd68ee-384b-4fbe-8929-d922b3d6dcfc",
+      "ServerUrl": "<https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com",
+      "AuthorizationEndpointUrl": "https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize",
+      "RedirectUrl": "https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com",
+      "TokenUrl": "https://76ca7eaatrial-dev-sistechy-sample.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token"
+    }
+  },
+  "DetailLabelViewText": "<Enter Detail Label View text here>",
+  "DefaultAppLanguage" : "en",
+  "SecureDatabaseEncryptionKey": true,
+  "SigninButtonText": "<Enter Sign in button text here>",
+  "OnboardingCustomizations": {
+    "_comment" : "<Refer online documentation or OnboardingCustomizations.sample on how to override & customize Onboarding UI strings>"
+  }
+}

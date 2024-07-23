@@ -1,0 +1,13 @@
+{
+  "AppDisplayName": "Sample_Plugin",
+  "AppName": "SamplePlugin",
+  "AppVersion": "1.0.0",
+  "AndroidVersionCode": "Auto",
+  "_BaseProject": "<Remove underscore at the beginning of the name and specify the subfolder under metadata containing Application.app>",
+  "BundleID": "Sistechy.SamplePlugin",
+  "Externals": [],
+  "ForceLightUIMode": false,
+  "NSPlugins": [],
+  "NPMPlugins": [],
+  "UrlScheme": "mdkclient"
+}
